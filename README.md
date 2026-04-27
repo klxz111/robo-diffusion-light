@@ -10,7 +10,7 @@
 [![PushT](https://img.shields.io/badge/Env-PushT-green.svg)](https://github.com/NVlabs/gym-pusht)
 [![Diffusion Policy](https://img.shields.io/badge/Method-Diffusion-orange.svg)](https://diffusion-policy.cs.columbia.edu/)
 
-**56.6M params · 34.9M trainable · 6-7h training · 46% strict success rate**
+**56.6M params · 34.9M trainable · 14-15h training · 68% strict success rate**
 
 </div>
 
@@ -49,8 +49,8 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  Dataset:    206 episodes · 25,650 frames · 10 FPS          │
 │  Model:      56.6M params (34.9M trainable, 21.7M frozen)   │
-│  Training:   ~6-7 hours on single GPU                       │
-│  Result:     46% strict success · 82% effective coverage    │
+│  Training:   ~14-15 hours on single GPU                       │
+│  Result:     68% strict success · 90% effective coverage    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
