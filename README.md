@@ -3,8 +3,8 @@
 **轻量化生成式机器人策略学习框架**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch 2.9+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 
 ---
 
@@ -48,27 +48,11 @@ Robo Diffusion Light 是一个面向端侧部署的轻量化生成式机器人�
 
 ### 环境要求
 
-- Python 3.10+
-- PyTorch 2.0+
-- CUDA 11.8+ (推荐)
+- Python 3.12+
+- PyTorch 2.9+
+- CUDA 12.8+ (推荐)
 
-### 安装步骤
 
-```bash
-# 克隆仓库
-git clone https://github.com/your-org/robo-diffusion-light.git
-cd robo-diffusion-light
-
-# 创建conda环境
-conda create -n robo-diff python=3.10
-conda activate robo-diff
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 安装本项目
-pip install -e .
-```
 
 ### 验证安装
 
@@ -82,10 +66,6 @@ python -c "import robo_diffusion; print('Installation successful!')"
 
 ### 推理演示
 
-```bash
-# 使用预训练模型进行推理演示
-python demo.py --checkpoint checkpoints/v4_best.pth --env pusht
-```
 
 ### 训练模型
 
